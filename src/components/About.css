@@ -1,0 +1,163 @@
+.about {
+  position: relative;
+}
+
+.about__hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+  margin-bottom: var(--space-4xl);
+}
+
+.about__hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.about__hero-content h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.about__hero-content p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.about__vision-card {
+  padding: 2.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__vision-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-card);
+  opacity: 0.5;
+}
+
+.about__vision-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: var(--space-lg);
+}
+
+.about__vision-year {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--accent-primary);
+  opacity: 0.3;
+}
+
+.about__vision-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.about__vision-title {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: var(--space-xl);
+}
+
+.about__vision-metrics {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xl);
+}
+
+.about__vision-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.about__vision-metric-value {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.about__vision-metric-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.about__values-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: var(--space-2xl);
+}
+
+.about__values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+}
+
+.value-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  transition: all var(--transition-base);
+}
+
+.value-card:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+}
+
+.value-card h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.value-card p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .about__hero {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .about__values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .about__values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__vision-metrics {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+}
