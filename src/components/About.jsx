@@ -7,37 +7,37 @@ const values = [
     icon: Target,
     title: 'Mission-Driven',
     description: 'Every line of code we write is aimed at making our clients the dominant force in their market.',
-    color: '#6c5ce7',
+    color: '#4d7cff',
   },
   {
     icon: Lock,
     title: 'Security First',
     description: 'Enterprise-grade security is baked into our DNA. Zero-trust architecture, end-to-end encryption, always.',
-    color: '#00e676',
+    color: '#00f0a8',
   },
   {
     icon: Rocket,
     title: 'Speed to Market',
     description: 'We ship fast without cutting corners. Our agile process delivers MVPs in weeks, not months.',
-    color: '#00d2ff',
+    color: '#00d4ff',
   },
   {
     icon: Users,
     title: 'Elite Talent',
     description: 'Our engineers come from top-tier backgrounds and bring battle-tested expertise to every project.',
-    color: '#e040fb',
+    color: '#7a8bff',
   },
   {
     icon: Globe2,
     title: 'Global Scale',
     description: 'We build for billions. Our architectures handle massive traffic across global infrastructure.',
-    color: '#ffc107',
+    color: '#80f5ff',
   },
   {
     icon: Award,
     title: 'Excellence Standard',
     description: 'We don\'t do "good enough." Every deliverable meets our world-class quality bar.',
-    color: '#ff5252',
+    color: '#5eb8ff',
   },
 ]
 

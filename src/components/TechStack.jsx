@@ -3,16 +3,16 @@ import { techStack } from '../data/companyData'
 import './TechStack.css'
 
 const categoryColors = {
-  Frontend: '#6c5ce7',
-  Language: '#e040fb',
-  Backend: '#00d2ff',
-  Database: '#00e676',
-  Cloud: '#ffc107',
-  DevOps: '#ff5252',
-  API: '#6c5ce7',
-  Payments: '#00d2ff',
-  'AI/ML': '#e040fb',
-  'Real-time': '#ffc107',
+  Frontend: '#4d7cff',
+  Language: '#7a8bff',
+  Backend: '#00d4ff',
+  Database: '#00f0a8',
+  Cloud: '#80f5ff',
+  DevOps: '#5eb8ff',
+  API: '#4d7cff',
+  Payments: '#00d4ff',
+  'AI/ML': '#7a8bff',
+  'Real-time': '#80f5ff',
 }
 
 export default function TechStack() {

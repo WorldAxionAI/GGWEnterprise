@@ -34,7 +34,7 @@ export default function Testimonials() {
               <p className="testimonial-card__content">{t.content}</p>
               <div className="testimonial-card__stars">
                 {Array.from({ length: t.rating }).map((_, i) => (
-                  <Star key={i} size={14} fill="#ffc107" color="#ffc107" />
+                  <Star key={i} size={14} fill="#00d4ff" color="#00d4ff" />
                 ))}
               </div>
               <div className="testimonial-card__author">

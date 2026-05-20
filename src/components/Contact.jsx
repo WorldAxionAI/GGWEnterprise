@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { Send, Mail, Phone, MapPin, ArrowRight, CheckCircle } from 'lucide-react'
+import { Send, Mail, Phone, MapPin, CheckCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { appendLead } from '../data/storageKeys'
 import './Contact.css'
 
 export default function Contact() {
@@ -15,8 +16,9 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    appendLead(formData)
     setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 4000)
+    setTimeout(() => setSubmitted(false), 5000)
     setFormData({ name: '', email: '', company: '', budget: '', message: '' })
   }
 
@@ -83,7 +85,7 @@ export default function Contact() {
             {submitted && (
               <div className="contact__success">
                 <CheckCircle size={24} />
-                <span>Message sent! We'll be in touch within 24 hours.</span>
+                <span>Thanks — your inquiry has been recorded. We'll be in touch within 24 hours.</span>
               </div>
             )}
 

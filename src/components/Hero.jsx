@@ -30,8 +30,8 @@ export default function Hero() {
         this.size = Math.random() * 2 + 0.5
         this.speedX = (Math.random() - 0.5) * 0.3
         this.speedY = (Math.random() - 0.5) * 0.3
-        this.opacity = Math.random() * 0.5 + 0.1
-        this.hue = Math.random() > 0.5 ? 255 : 180
+        this.opacity = Math.random() * 0.6 + 0.2
+        this.hue = Math.random() > 0.5 ? 190 : 215
       }
       update() {
         this.x += this.speedX
@@ -65,10 +65,10 @@ export default function Hero() {
           const dx = particles[i].x - particles[j].x
           const dy = particles[i].y - particles[j].y
           const dist = Math.sqrt(dx * dx + dy * dy)
-          if (dist < 120) {
+          if (dist < 130) {
             ctx.beginPath()
-            ctx.strokeStyle = `rgba(108, 92, 231, ${0.08 * (1 - dist / 120)})`
-            ctx.lineWidth = 0.5
+            ctx.strokeStyle = `rgba(0, 212, 255, ${0.12 * (1 - dist / 130)})`
+            ctx.lineWidth = 0.6
             ctx.moveTo(particles[i].x, particles[i].y)
             ctx.lineTo(particles[j].x, particles[j].y)
             ctx.stroke()

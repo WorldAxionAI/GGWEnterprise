@@ -7,7 +7,7 @@ export const services = [
     description: 'Premium, pixel-perfect websites that convert visitors into customers. Built with cutting-edge technology and stunning design.',
     icon: 'Globe',
     features: ['Responsive Design', 'SEO Optimized', 'Performance Tuned', 'Custom CMS'],
-    color: '#6c5ce7',
+    color: '#4d7cff',
   },
   {
     id: 'saas-platforms',
@@ -15,7 +15,7 @@ export const services = [
     description: 'Scalable software-as-a-service products built from the ground up. Multi-tenant architecture with enterprise-grade infrastructure.',
     icon: 'Cloud',
     features: ['Multi-Tenant', 'Auto-Scaling', 'Subscription Billing', 'API-First'],
-    color: '#00d2ff',
+    color: '#00d4ff',
   },
   {
     id: 'backend-systems',
@@ -23,7 +23,7 @@ export const services = [
     description: 'Rock-solid server architectures, APIs, and microservices that handle millions of requests with sub-second response times.',
     icon: 'Server',
     features: ['Microservices', 'REST & GraphQL', 'Database Design', 'Cloud Deploy'],
-    color: '#e040fb',
+    color: '#7a8bff',
   },
   {
     id: 'security',
@@ -31,7 +31,7 @@ export const services = [
     description: 'Enterprise-level security auditing, penetration testing, and secure software development lifecycle integration.',
     icon: 'Shield',
     features: ['Pen Testing', 'OWASP Compliance', 'Zero-Trust', 'Encryption'],
-    color: '#00e676',
+    color: '#00f0a8',
   },
   {
     id: 'frontend-ui',
@@ -39,7 +39,7 @@ export const services = [
     description: 'Immersive user interfaces with micro-interactions, animations, and design systems that define brand identity.',
     icon: 'Palette',
     features: ['Design Systems', 'Animations', 'Accessibility', 'Brand Identity'],
-    color: '#ffc107',
+    color: '#5eb8ff',
   },
   {
     id: 'consulting',
@@ -47,7 +47,7 @@ export const services = [
     description: 'Strategic technology advisory to help enterprises make the right architecture and stack decisions for long-term growth.',
     icon: 'BrainCircuit',
     features: ['Architecture Review', 'Stack Selection', 'Team Training', 'Roadmapping'],
-    color: '#ff5252',
+    color: '#80f5ff',
   },
 ]
 
@@ -60,7 +60,7 @@ export const portfolio = [
     tech: ['React', 'Node.js', 'MongoDB', 'AWS', 'Stripe'],
     metrics: { users: '12K+', uptime: '99.99%', rating: '4.9/5' },
     status: 'Live',
-    color: '#00d2ff',
+    color: '#00d4ff',
   },
   {
     id: 2,
@@ -70,7 +70,7 @@ export const portfolio = [
     tech: ['React', 'Express', 'PostgreSQL', 'AWS EC2', 'Stripe'],
     metrics: { revenue: '$250K+', products: '500+', conversion: '4.2%' },
     status: 'Live',
-    color: '#6c5ce7',
+    color: '#4d7cff',
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ export const portfolio = [
     tech: ['React', 'Rust', 'WebSocket', 'Docker', 'Redis'],
     metrics: { servers: '1K+', latency: '<10ms', players: '50K+' },
     status: 'Live',
-    color: '#e040fb',
+    color: '#7a8bff',
   },
   {
     id: 4,
@@ -90,7 +90,7 @@ export const portfolio = [
     tech: ['React', 'Python', 'AI/ML', 'Firebase', 'CDN'],
     metrics: { posts: '1M+', engagement: '85%', growth: '200%' },
     status: 'Live',
-    color: '#ffc107',
+    color: '#80f5ff',
   },
   {
     id: 5,
@@ -100,7 +100,7 @@ export const portfolio = [
     tech: ['Next.js', 'Python', 'TensorFlow', 'AWS', 'GraphQL'],
     metrics: { queries: '10M+', accuracy: '97%', clients: '15' },
     status: 'Live',
-    color: '#00e676',
+    color: '#00f0a8',
   },
 ]
 
